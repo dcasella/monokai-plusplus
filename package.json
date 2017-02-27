@@ -1,0 +1,29 @@
+{
+    "name": "theme-monokai-plusplus",
+    "displayName": "Monokai++",
+    "description": "Modern Monokai TextMate theme",
+    "version": "0.0.1",
+    "publisher": "dcasella",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monokai++",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Monokai++.tmTheme"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dcasella/monokai-plusplus.git"
+    },
+    "bugs": {
+        "url": "https://github.com/dcasella/monokai-plusplus/issues"
+    }
+}

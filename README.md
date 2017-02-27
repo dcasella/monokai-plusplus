@@ -7,7 +7,7 @@ A modern Monokai theme for Visual Studio Code.
 `Ctrl/Command + Shift + P` to launch the command palette:
 
 ```
-ext install monokai-plusplus
+ext install theme-monokai-plusplus
 ```
 
 ## Screenshot

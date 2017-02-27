@@ -1,1 +1,5 @@
+# Example code
 *.cpp
+
+# PDF Output
+*.pdf

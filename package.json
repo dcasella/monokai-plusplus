@@ -1,8 +1,8 @@
 {
-    "name": "theme-monokai-plusplus",
+    "name": "monokai-plusplus",
     "displayName": "Monokai++",
-    "description": "Modern Monokai TextMate theme",
-    "version": "0.1.0",
+    "description": "A modern Monokai theme for Visual Studio Code",
+    "version": "0.2.0",
     "publisher": "dcasella",
     "engines": {
         "vscode": "^1.5.0"

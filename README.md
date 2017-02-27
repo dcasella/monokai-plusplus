@@ -2,6 +2,9 @@
 
 A modern Monokai theme for Visual Studio Code.
 
+[![Version](https://vsmarketplacebadge.apphb.com/version/dcasella.theme-monokai-plusplus.svg)](https://marketplace.visualstudio.com/items?itemName=dcasella.theme-monokai-plusplus)
+[![GitHub stars](https://img.shields.io/github/stars/dcasella/monokai-plusplus.svg?style=social&label=Star)](https://github.com/dcasella/monokai-plusplus)
+
 ## Install
 
 `Ctrl/Command + Shift + P` to launch the command palette:

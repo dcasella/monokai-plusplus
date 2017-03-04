@@ -15,7 +15,7 @@
 				<string>#a8a8a8</string>
 				
 				<key>caret</key>
-				<string>#88ddbb</string>
+				<string>#a8a8a8</string>
 				
 				<key>invisibles</key>
 				<string>#1f1f1f</string>
@@ -26,12 +26,12 @@
 				<string>#1f1f1f</string>
 				
 				<key>referenceHighlight</key>
-				<string>#252525</string>
+				<string>#252526</string>
 				
 				<key>lineHighlight</key>
-				<string>#252525</string>
+				<string>#252526</string>
 				<key>rangeHighlight</key>
-				<string>#252525</string>
+				<string>#252526</string>
 				
 				<key>selection</key>
 				<string>#59201b</string>

@@ -99,18 +99,29 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#fd971f</string>
+				<string>#ae81ff</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>User-defined constant</string>
 			<key>scope</key>
-			<string>constant.character, constant.other</string>
+			<string>constant.character</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#e62a19</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Other constant</string>
+			<key>scope</key>
+			<string>constant.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#fd971f</string>
 			</dict>
 		</dict>
 		<dict>
@@ -159,28 +170,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Class name</string>
-			<key>scope</key>
-			<string>entity.name.class</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#ff0000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Inherited class</string>
-			<key>scope</key>
-			<string>entity.other.inherited-class</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#ff0000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Function name</string>
 			<key>scope</key>
 			<string>entity.name.function</string>
@@ -221,6 +210,17 @@
 			<dict>
 				<key>foreground</key>
 				<string>#f92672</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Punctuation separator parameters</string>
+			<key>scope</key>
+			<string>punctuation.separator.parameters</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#fd971f</string>
 			</dict>
 		</dict>
 		<dict>

@@ -4,6 +4,10 @@
 <dict>
 	<key>name</key>
 	<string>Monokai++</string>
+	<key>author</key>
+	<string>Davide Casella (http://dcasella.ovh)</string>
+	<key>colorSpaceName</key>
+	<string>sRGB</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -22,40 +26,25 @@
 				<key>guide</key>
 				<string>#1f1f1f</string>
 				
-				<key>hoverHighlight</key>
-				<string>#1f1f1f</string>
-				
-				<key>referenceHighlight</key>
-				<string>#252526</string>
-				
 				<key>lineHighlight</key>
-				<string>#252526</string>
-				<key>rangeHighlight</key>
 				<string>#252526</string>
 				
 				<key>selection</key>
 				<string>#59201b</string>
 				<key>inactiveSelection</key>
 				<string>#402725</string>
+				
 				<key>selectionHighlight</key>
-				<string>#1c1c1c</string>
+				<string>#292929</string>
+				<key>rangeHighlight</key>
+				<string>#292929</string>
 				
-				<key>findRangeHighlight</key>
-				<string>#59201b</string>
+				<key>rangeMatchHighlight</key>
+				<string>#50698d</string>
 				<key>findMatchHighlight</key>
-				<string>#59201b</string>
+				<string>#50698d</string>
 				<key>currentFindMatchHighlight</key>
-				<string>#59201b</string>
-				
-				<key>wordHighlight</key>
-				<string>#1f1f1f</string>
-				<key>wordHighlightStrong</key>
-				<string>#1c1c1c</string>
-				
-				<key>activeLinkForeground</key>
-				<string></string>
-				<key>gotoDefinitionLinkForeground</key>
-				<string></string>
+				<string>#5d769a</string>
 			</dict>
 		</dict>
 		<dict>

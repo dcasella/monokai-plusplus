@@ -253,7 +253,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#66d9ef</string>
+				<string>#55d9ef</string>
 			</dict>
 		</dict>
 		<dict>
@@ -291,13 +291,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markup Quote</string>
+			<string>Markup Header</string>
 			<key>scope</key>
-			<string>markup.quote</string>
+			<string>markup.heading</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#43d08a</string>
+				<string>#f92672</string>
 			</dict>
 		</dict>
 		<dict>
@@ -308,29 +308,29 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#43d08a</string>
+				<string>#fd971f</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markup Inline</string>
+			<string>Markup Quote</string>
 			<key>scope</key>
-			<string>markup.inline.raw</string>
+			<string>markup.quote</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#696d70</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup Code</string>
+			<key>scope</key>
+			<string>markup.inline, markup.fenced_code</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#ae81ff</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Markup Setext Header</string>
-			<key>scope</key>
-			<string>markup.heading.setext</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#e6db74</string>
 			</dict>
 		</dict>
 	</array>

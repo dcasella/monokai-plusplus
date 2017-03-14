@@ -143,7 +143,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#55d9ef</string>
+				<string>#49e0fd</string>
 			</dict>
 		</dict>
 		<dict>
@@ -154,7 +154,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#43d08a</string>
+				<string>#2be98a</string>
 			</dict>
 		</dict>
 		<dict>
@@ -253,7 +253,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#55d9ef</string>
+				<string>#49e0fd</string>
 			</dict>
 		</dict>
 		<dict>
@@ -264,7 +264,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#43d08a</string>
+				<string>#2be98a</string>
 			</dict>
 		</dict>
 		<dict>
@@ -324,9 +324,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markup Code</string>
+			<string>Markup Inline</string>
 			<key>scope</key>
-			<string>markup.inline, markup.fenced_code</string>
+			<string>markup.inline</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

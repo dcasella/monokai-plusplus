@@ -16,10 +16,10 @@
 				<key>background</key>
 				<string>#1c1c1c</string>
 				<key>foreground</key>
-				<string>#a8a8a8</string>
+				<string>#b8b8b8</string>
 				
 				<key>caret</key>
-				<string>#a8a8a8</string>
+				<string>#b8b8b8</string>
 				
 				<key>invisibles</key>
 				<string>#1f1f1f</string>
@@ -40,11 +40,11 @@
 				<string>#292929</string>
 				
 				<key>rangeMatchHighlight</key>
-				<string>#50698d</string>
+				<string>#59201b</string>
 				<key>findMatchHighlight</key>
-				<string>#50698d</string>
+				<string>#59201b</string>
 				<key>currentFindMatchHighlight</key>
-				<string>#5d769a</string>
+				<string>#50698d</string>
 			</dict>
 		</dict>
 		<dict>
@@ -54,6 +54,10 @@
 			<string>comment</string>
 			<key>settings</key>
 			<dict>
+				<!--
+				<key>fontStyle</key>
+				<string></string>
+				-->
 				<key>foreground</key>
 				<string>#696d70</string>
 			</dict>
@@ -115,17 +119,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Variable</string>
-			<key>scope</key>
-			<string>variable</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
 			<string>keyword</string>
@@ -148,9 +141,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Storage type</string>
+			<string>Type</string>
 			<key>scope</key>
-			<string>storage.type</string>
+			<string>storage.type, keyword.type</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -183,7 +176,19 @@
 			<key>name</key>
 			<string>Language variables</string>
 			<key>scope</key>
-			<string>variable.language, variable.other</string>
+			<string>variable.language</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#fd971f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Other variables</string>
+			<key>scope</key>
+			<string>variable.other.member, variable.other.object.property,
+			        variable.other.makefile</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -302,13 +307,24 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markup Styling</string>
+			<string>Markup Bold</string>
 			<key>scope</key>
-			<string>markup.bold, markup.italic</string>
+			<string>markup.bold</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#fd971f</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup Italic</string>
+			<key>scope</key>
+			<string>markup.italic</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 			</dict>
 		</dict>
 		<dict>

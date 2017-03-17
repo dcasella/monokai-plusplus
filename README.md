@@ -6,13 +6,13 @@ A modern Monokai theme for Visual Studio Code.
 
 ## Installation
 
-In Visual Studio Code  
+In Visual Studio Code
 
 **Option 1:**  
 
 `Ctrl/Command + Shift + X` to open the Extensions tab  
 Search for `monokai++`  
-Click Install  
+Click Install
 
 **Option 2:**  
 
@@ -21,10 +21,14 @@ Write `ext install monokai-plusplus`
 
 ## Screenshot
 
-C++ example code:
+C++ example code
 
 ![Theme Screenshot](screenshot.png)
 
+## Issues
+
+Markdown fenced code highlight breaks with underscores.
+
 ## Credits
 
-Based on the theme [Atom Monokai](https://github.com/burntime/atom-monokai) from [burntime](https://github.com/burntime).  
+Based on the theme [Atom Monokai](https://github.com/burntime/atom-monokai) from [burntime](https://github.com/burntime).

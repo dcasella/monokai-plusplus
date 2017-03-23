@@ -54,10 +54,6 @@
 			<string>comment</string>
 			<key>settings</key>
 			<dict>
-				<!--
-				<key>fontStyle</key>
-				<string></string>
-				-->
 				<key>foreground</key>
 				<string>#696d70</string>
 			</dict>
@@ -66,7 +62,7 @@
 			<key>name</key>
 			<string>String</string>
 			<key>scope</key>
-			<string>string</string>
+			<string>string.quoted</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -75,20 +71,20 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Number</string>
+			<string>Regexp</string>
 			<key>scope</key>
-			<string>constant.numeric</string>
+			<string>string.regexp</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ae81ff</string>
+				<string>#49e0fd</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Built-in constant</string>
+			<string>Language constant</string>
 			<key>scope</key>
-			<string>constant.language</string>
+			<string>constant.numeric, constant.language</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -99,7 +95,7 @@
 			<key>name</key>
 			<string>User-defined constant</string>
 			<key>scope</key>
-			<string>constant.character</string>
+			<string>constant.character, constant.other.placeholder</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -154,7 +150,7 @@
 			<key>name</key>
 			<string>Function name</string>
 			<key>scope</key>
-			<string>entity.name.function</string>
+			<string>entity.name.function, constant.other.symbol.prolog</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -163,32 +159,11 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Function argument</string>
+			<string>Non-standard Variables</string>
 			<key>scope</key>
-			<string>variable.parameter</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#fd971f</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Language variables</string>
-			<key>scope</key>
-			<string>variable.language</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#fd971f</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Other variables</string>
-			<key>scope</key>
-			<string>variable.other.member, variable.other.object.property,
-			        variable.other.makefile</string>
+			<string>variable.language, variable.parameter, variable.other.c,
+					variable.other.prolog, variable.other.member,
+					variable.other.object.property, variable.other.makefile</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -219,9 +194,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Tag name</string>
+			<string>Tag</string>
 			<key>scope</key>
-			<string>entity.name.tag</string>
+			<string>entity.name.tag, entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -230,20 +205,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Tag attribute</string>
+			<string>Functions</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#f92672</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Library function</string>
-			<key>scope</key>
-			<string>support.function</string>
+			<string>support.function, meta.function-call.generic</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -325,6 +289,17 @@
 			<dict>
 				<key>fontStyle</key>
 				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup Underline</string>
+			<key>scope</key>
+			<string>markup.underline</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>underline</string>
 			</dict>
 		</dict>
 		<dict>

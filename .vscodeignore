@@ -1,8 +1,11 @@
 # Example code
-*.cpp
+example_code.*
 
 # Color palette
 *.scss
 
 # PDF Output
 *.pdf
+
+# Code snippets
+snippet.*

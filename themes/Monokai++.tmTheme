@@ -49,6 +49,21 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Normal</string>
+			<key>scope</key>
+			<string>
+				storage.modifier.import, storage.type.generic,
+				keyword.operator.dereference.java, variable.other,
+				meta.preprocessor.haskell, meta.preprocessor.macro
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b8b8b8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
 			<string>comment</string>
@@ -62,7 +77,7 @@
 			<key>name</key>
 			<string>String</string>
 			<key>scope</key>
-			<string>string.quoted</string>
+			<string>string</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -93,7 +108,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>User-defined constant</string>
+			<string>Escape/constant</string>
 			<key>scope</key>
 			<string>constant.character, constant.other.placeholder</string>
 			<key>settings</key>
@@ -117,7 +132,11 @@
 			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
-			<string>keyword</string>
+			<string>
+				keyword, entity.name.function, meta.preprocessor,
+				constant.other.symbol.prolog, support.function.magic,
+				entity.name.variable.property
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -126,9 +145,15 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Storage</string>
+			<string>Data modifier</string>
 			<key>scope</key>
-			<string>storage</string>
+			<string>
+				storage, storage.type.js, entity.name.type.namespace.php,
+				punctuation.separator.inheritance.php, meta.import.scala,
+				support.other.namespace.use.php, variable.other.constant.ruby,
+				entity.name.type.go, support.other.module.haskell,
+				support.constant
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -137,9 +162,12 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Type</string>
+			<string>Data type</string>
 			<key>scope</key>
-			<string>storage.type, keyword.type</string>
+			<string>
+				storage.type, keyword.type, support.type,
+				support.class
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -148,22 +176,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Function name</string>
+			<string>Member variables</string>
 			<key>scope</key>
-			<string>entity.name.function, constant.other.symbol.prolog</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#f92672</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Non-standard Variables</string>
-			<key>scope</key>
-			<string>variable.language, variable.parameter, variable.other.c,
-					variable.other.prolog, variable.other.member,
-					variable.other.object.property, variable.other.makefile</string>
+			<string>
+				variable.language, variable.parameter,
+				variable.other.prolog, variable.other.member,
+				variable.other.makefile
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -172,9 +191,26 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Punctuation separator</string>
+			<string>Constructors and similar</string>
 			<key>scope</key>
-			<string>punctuation.separator</string>
+			<string>
+				variable.other.c, meta.function-call.object.php,
+				meta.function-call.static.php
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#fd971f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Punctuation</string>
+			<key>scope</key>
+			<string>
+				punctuation.separator, storage.type.function.arrow,
+				punctuation.section.embedded
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -183,7 +219,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Punctuation separator parameters</string>
+			<string>Punctuation in parameters</string>
 			<key>scope</key>
 			<string>punctuation.separator.parameters</string>
 			<key>settings</key>
@@ -194,7 +230,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Tag</string>
+			<string>Tags</string>
 			<key>scope</key>
 			<string>entity.name.tag, entity.other.attribute-name</string>
 			<key>settings</key>
@@ -205,9 +241,12 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Functions</string>
+			<string>Meta Functions</string>
 			<key>scope</key>
-			<string>support.function, meta.function-call.generic</string>
+			<string>
+				meta.function-call.method, meta.function-call.generic,
+				meta.function-call.php
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -216,24 +255,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Library constant</string>
+			<string>Support Functions</string>
 			<key>scope</key>
-			<string>support.constant</string>
+			<string>
+				support.function.any-method, support.function.C99,
+				support.function.misc, support.function.js,
+				support.function.core.ruby, support.function.builtin.rust,
+				support.function.log.rust, support.function.std.rust,
+				support.function.go
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#49e0fd</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Library class/type</string>
-			<key>scope</key>
-			<string>support.type, support.class</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#2be98a</string>
+				<string>#b0ec38</string>
 			</dict>
 		</dict>
 		<dict>

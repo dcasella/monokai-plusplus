@@ -1,2 +1,5 @@
 # PDF Output
 *.pdf
+
+# Code snippets
+snippet.*

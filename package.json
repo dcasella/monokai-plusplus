@@ -2,7 +2,7 @@
     "name": "monokai-plusplus",
     "displayName": "Monokai++",
     "description": "A modern Monokai theme for Visual Studio Code",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "publisher": "dcasella",
     "icon": "logo.png",
     "galleryBanner": {

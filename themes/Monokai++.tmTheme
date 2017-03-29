@@ -110,7 +110,8 @@
 			<key>name</key>
 			<string>Escape/constant</string>
 			<key>scope</key>
-			<string>constant.character, constant.other.placeholder</string>
+			<string>constant.character, constant.other.placeholder,
+					support.other.escape.special.regexp</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

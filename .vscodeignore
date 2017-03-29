@@ -8,4 +8,4 @@ example_code.*
 *.pdf
 
 # Code snippets
-snippet.*
+**/snippet.*

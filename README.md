@@ -9,13 +9,13 @@ Feel free to open GitHub Issues to report any problem with the Color Scheme or s
 
 In Visual Studio Code
 
-**Option 1:**  
+**Option 1:**
 
 `Ctrl/Command + Shift + X` to open the Extensions tab  
 Search for `monokai++`  
 Click Install
 
-**Option 2:**  
+**Option 2:**
 
 `Ctrl/Command + P` to launch the command palette  
 Write `ext install monokai-plusplus`

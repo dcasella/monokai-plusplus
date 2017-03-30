@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Monokai++</string>
 	<key>author</key>
-	<string>Davide Casella (http://dcasella.ovh)</string>
+	<string>Davide Casella (https://dcasella.ovh)</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>settings</key>
@@ -22,7 +22,7 @@
 				<string>#b8b8b8</string>
 				
 				<key>invisibles</key>
-				<string>#1f1f1f</string>
+				<string>#3a3a3b</string>
 				<key>guide</key>
 				<string>#1f1f1f</string>
 				

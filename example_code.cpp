@@ -1,8 +1,8 @@
-#ifndef MONOKAIPP_H
-#define MONOKAIPP_H
+#ifndef MONOKAI_H_
+#define MONOKAI_H_
 
 #include <iostream>
-#define INSPECT_LIFE(a, b) a[b]
+#define AB(a, b) a[b]
 
 struct struct_t {
   int[] a;
@@ -14,20 +14,19 @@ template <typename T>
 class Class : public OtherClass {
   struct_t st;
   T foo;
-  
+
 public:
   cl(struct_t* st = 0, const T& foo) : st(st) {
     this->foo = foo;
   }
-   // <- caret
-  
-  /* ... */
 }
 
 int main(int argc, const char* argv[]) {
   somefunction(/* ... */);
-  Class elem(/* ... */);
-  std::cout << "Monokai++" << std::endl;
+  Class c1(/* ... */);
+  Class c2 = new Class();
+
+  std::cout << "Monokai++\n";
 }
 
 #endif

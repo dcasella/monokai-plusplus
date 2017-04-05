@@ -54,7 +54,8 @@
 			<string>
 				storage.modifier.import, storage.type.generic,
 				keyword.operator.dereference.java, variable.other,
-				meta.preprocessor.haskell, meta.preprocessor.macro
+				meta.preprocessor.haskell, meta.preprocessor.macro,
+				punctuation.separator.java
 			</string>
 			<key>settings</key>
 			<dict>
@@ -111,7 +112,8 @@
 			<string>Escape/constant</string>
 			<key>scope</key>
 			<string>constant.character, constant.other.placeholder,
-					support.other.escape.special.regexp</string>
+					support.other.escape.special.regexp
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -136,7 +138,8 @@
 			<string>
 				keyword, entity.name.function, meta.preprocessor,
 				constant.other.symbol.prolog, support.function.magic,
-				entity.name.variable.property
+				entity.name.variable.property, support.function.general.tex,
+				support.function.be.latex, support.function.section.latex
 			</string>
 			<key>settings</key>
 			<dict>
@@ -167,7 +170,10 @@
 			<key>scope</key>
 			<string>
 				storage.type, keyword.type, support.type,
-				support.class
+				support.class, keyword.declaration.stable.scala,
+				keyword.declaration.volatile.scala, keyword.declaration.scala,
+				keyword.control.def.ruby, keyword.other.fn.rust,
+				keyword.other.rust
 			</string>
 			<key>settings</key>
 			<dict>

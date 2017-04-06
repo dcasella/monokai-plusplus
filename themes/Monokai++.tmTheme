@@ -13,8 +13,10 @@
 		<dict>
 			<key>settings</key>
 			<dict>
+				<!-- TextMate -->
 				<key>background</key>
 				<string>#1c1c1c</string>
+				
 				<key>foreground</key>
 				<string>#b8b8b8</string>
 				
@@ -23,28 +25,88 @@
 				
 				<key>invisibles</key>
 				<string>#3a3a3b</string>
-				<key>guide</key>
-				<string>#1f1f1f</string>
 				
 				<key>lineHighlight</key>
 				<string>#252526</string>
 				
 				<key>selection</key>
-				<string>#59201b</string>
-				<key>inactiveSelection</key>
-				<string>#402725</string>
-				
-				<key>selectionHighlight</key>
 				<string>#292929</string>
+				
+				<!--
+				<string>#59201b</string>
+				-->
+				
+				<!-- Visual Studio Code -->
+				<!--
+					Background color of range highlighted, like by Quick open
+					and Find features
+				-->
 				<key>rangeHighlight</key>
 				<string>#292929</string>
 				
-				<key>rangeMatchHighlight</key>
-				<string>#59201b</string>
+				<!--
+					Background color of regions highlighted while selecting
+				-->
+				<key>selectionHighlight</key>
+				<string>#292929</string>
+				
+				<!--
+					Background color of selections when not in focus
+				-->
+				<!--
+				<key>inactiveSelection</key>
+				<string>#402725</string>
+				-->
+				
+				<!--
+					Background color of a symbol during read-access, like
+					reading a variable
+				-->
+				<key>wordHighlight</key>
+				<string></string>
+				
+				<!--
+					Background color of a symbol during write-access, like
+					writing to a variable
+				-->
+				<key>wordHighlightStrong</key>
+				<string></string>
+				
+				<!--
+					Background color of regions matching the search
+				-->
 				<key>findMatchHighlight</key>
-				<string>#59201b</string>
+				<string>#435c80</string>
+				
+				<!--
+					Background color of the current region matching the search
+				-->
 				<key>currentFindMatchHighlight</key>
 				<string>#50698d</string>
+				
+				<!--
+					Background color of regions selected for search
+				-->
+				<key>findRangeHighlight</key>
+				<string></string>
+				
+				<!--
+					Background color when hovered
+				-->
+				<key>hoverHighlight</key>
+				<string>#252526</string>
+				
+				<!--
+					Background color of a reference when finding all references
+				-->
+				<key>referenceHighlight</key>
+				<string></string>
+				
+				<!--
+					Color of the guides displayed to indicate nesting levels
+				-->
+				<key>guide</key>
+				<string>#1f1f1f</string>
 			</dict>
 		</dict>
 		<dict>
@@ -308,6 +370,8 @@
 			<dict>
 				<key>foreground</key>
 				<string>#f92672</string>
+				<key>fontStyle</key>
+				<string>bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -347,7 +411,7 @@
 			<key>name</key>
 			<string>Markup Quote</string>
 			<key>scope</key>
-			<string>markup.quote</string>
+			<string>markup.quote, markup.raw.block</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -363,6 +427,44 @@
 			<dict>
 				<key>foreground</key>
 				<string>#ae81ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup Link</string>
+			<key>scope</key>
+			<string>string.other.link.title.markdown,
+					string.other.link.description.markdown
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#49e0fd</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown fade</string>
+			<key>scope</key>
+			<string>punctuation.definition.heading.markdown,
+					punctuation.definition.bold.markdown,
+					punctuation.definition.italic.markdown,
+					punctuation.definition.list.markdown,
+					punctuation.definition.string.begin.markdown,
+					punctuation.definition.string.end.markdown,
+					punctuation.definition.metadata.markdown,
+					punctuation.definition.raw.markdown,
+					markup.underline.link.image.markdown,
+					markup.underline.link.markdown,
+					markup.list.unnumbered.markdown,
+					markup.list.numbered.markdown
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#696d70</string>
+				<key>fontStyle</key>
+				<string>normal</string>
 			</dict>
 		</dict>
 	</array>

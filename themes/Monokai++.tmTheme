@@ -10,6 +10,7 @@
 	<string>sRGB</string>
 	<key>settings</key>
 	<array>
+		<!-- Editor -->
 		<dict>
 			<key>settings</key>
 			<dict>
@@ -18,10 +19,10 @@
 				<string>#1c1c1c</string>
 				
 				<key>foreground</key>
-				<string>#b8b8b8</string>
+				<string>#cccccc</string>
 				
 				<key>caret</key>
-				<string>#b8b8b8</string>
+				<string>#cccccc</string>
 				
 				<key>invisibles</key>
 				<string>#3a3a3b</string>
@@ -30,11 +31,7 @@
 				<string>#252526</string>
 				
 				<key>selection</key>
-				<string>#292929</string>
-				
-				<!--
 				<string>#59201b</string>
-				-->
 				
 				<!-- Visual Studio Code -->
 				<!--
@@ -109,236 +106,26 @@
 				<string>#1f1f1f</string>
 			</dict>
 		</dict>
+		
+		<!-- General -->
 		<dict>
 			<key>name</key>
 			<string>Normal</string>
 			<key>scope</key>
 			<string>
-				storage.modifier.import, storage.type.generic,
-				keyword.operator.dereference.java, variable.other,
-				meta.preprocessor.haskell, meta.preprocessor.macro,
-				punctuation.separator.java
+				entity.name.function.preprocessor,
+				meta.preprocessor.macro,
+				storage.modifier.import,
+				storage.type.generic,
+				variable.other
 			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#b8b8b8</string>
+				<string>#cccccc</string>
 			</dict>
 		</dict>
-		<dict>
-			<key>name</key>
-			<string>Comment</string>
-			<key>scope</key>
-			<string>comment</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#696d70</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>String</string>
-			<key>scope</key>
-			<string>string</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#e6db74</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Regexp</string>
-			<key>scope</key>
-			<string>string.regexp</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#49e0fd</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Language constant</string>
-			<key>scope</key>
-			<string>constant.numeric, constant.language</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#ae81ff</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Escape/constant</string>
-			<key>scope</key>
-			<string>constant.character, constant.other.placeholder,
-					support.other.escape.special.regexp
-			</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#e62a19</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Other constant</string>
-			<key>scope</key>
-			<string>constant.other</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#fd971f</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Keyword</string>
-			<key>scope</key>
-			<string>
-				keyword, entity.name.function, meta.preprocessor,
-				constant.other.symbol.prolog, support.function.magic,
-				entity.name.variable.property, support.function.general.tex,
-				support.function.be.latex, support.function.section.latex
-			</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#f92672</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Data modifier</string>
-			<key>scope</key>
-			<string>
-				storage, storage.type.js, entity.name.type.namespace.php,
-				punctuation.separator.inheritance.php, meta.import.scala,
-				support.other.namespace.use.php, variable.other.constant.ruby,
-				entity.name.type.go, support.other.module.haskell,
-				support.constant
-			</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#49e0fd</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Data type</string>
-			<key>scope</key>
-			<string>
-				storage.type, keyword.type, support.type,
-				support.class, keyword.declaration.stable.scala,
-				keyword.declaration.volatile.scala, keyword.declaration.scala,
-				keyword.control.def.ruby, keyword.other.fn.rust,
-				keyword.other.rust
-			</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#2be98a</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Member variables</string>
-			<key>scope</key>
-			<string>
-				variable.language, variable.parameter,
-				variable.other.prolog, variable.other.member,
-				variable.other.makefile
-			</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#fd971f</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Constructors and similar</string>
-			<key>scope</key>
-			<string>
-				variable.other.c, meta.function-call.object.php,
-				meta.function-call.static.php
-			</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#fd971f</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Punctuation</string>
-			<key>scope</key>
-			<string>
-				punctuation.separator, storage.type.function.arrow,
-				punctuation.section.embedded
-			</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#f92672</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Punctuation in parameters</string>
-			<key>scope</key>
-			<string>punctuation.separator.parameters</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#fd971f</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Tags</string>
-			<key>scope</key>
-			<string>entity.name.tag, entity.other.attribute-name</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#f92672</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Meta Functions</string>
-			<key>scope</key>
-			<string>
-				meta.function-call.method, meta.function-call.generic,
-				meta.function-call.php
-			</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#b0ec38</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Support Functions</string>
-			<key>scope</key>
-			<string>
-				support.function.any-method, support.function.C99,
-				support.function.misc, support.function.js,
-				support.function.core.ruby, support.function.builtin.rust,
-				support.function.log.rust, support.function.std.rust,
-				support.function.go
-			</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#b0ec38</string>
-			</dict>
-		</dict>
+		
 		<dict>
 			<key>name</key>
 			<string>Invalid</string>
@@ -350,20 +137,214 @@
 				<string>#e62a19</string>
 			</dict>
 		</dict>
+		
 		<dict>
 			<key>name</key>
-			<string>Invalid deprecated</string>
+			<string>Comment</string>
 			<key>scope</key>
-			<string>invalid.deprecated</string>
+			<string>comment</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
+				<key>foreground</key>
+				<string>#696d70</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>String</string>
+			<key>scope</key>
+			<string>string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e6db74</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Regexp</string>
+			<key>scope</key>
+			<string>string.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#49e0fd</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Language constant</string>
+			<key>scope</key>
+			<string>
+				constant.language,
+				constant.numeric
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ae81ff</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Escape/constant</string>
+			<key>scope</key>
+			<string>
+				constant.character,
+				constant.other.placeholder,
+				support.other.escape.special.regexp
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
 				<string>#e62a19</string>
 			</dict>
 		</dict>
+		
 		<dict>
 			<key>name</key>
-			<string>Markup Header</string>
+			<string>Other constant</string>
+			<key>scope</key>
+			<string>constant.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#fd971f</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Keyword</string>
+			<key>scope</key>
+			<string>
+				entity.name.variable.property,
+				keyword,
+				meta.preprocessor
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f92672</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Data modifier</string>
+			<key>scope</key>
+			<string>
+				storage,
+				support.constant
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#49e0fd</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Data type</string>
+			<key>scope</key>
+			<string>
+				keyword.type,
+				storage.type,
+				support.class,
+				support.type
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#2be98a</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Member variables/functions</string>
+			<key>scope</key>
+			<string>
+				variable.language,
+				variable.other.member,
+				variable.parameter
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#fd971f</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Punctuation</string>
+			<key>scope</key>
+			<string>
+				punctuation.section.embedded,
+				punctuation.separator,
+				storage.type.function.arrow
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f92672</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Punctuation in parameters</string>
+			<key>scope</key>
+			<string>punctuation.separator.parameters</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#fd971f</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Tags</string>
+			<key>scope</key>
+			<string>
+				entity.name.tag,
+				entity.other.attribute-name
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f92672</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Functions</string>
+			<key>scope</key>
+			<string>
+				entity.name.function,
+				meta.function-call.generic,
+				meta.function-call.method,
+				support.function.any-method,
+				support.function.misc
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b0ec38</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Markup header</string>
 			<key>scope</key>
 			<string>markup.heading</string>
 			<key>settings</key>
@@ -374,9 +355,10 @@
 				<string>bold</string>
 			</dict>
 		</dict>
+		
 		<dict>
 			<key>name</key>
-			<string>Markup Bold</string>
+			<string>Markup bold</string>
 			<key>scope</key>
 			<string>markup.bold</string>
 			<key>settings</key>
@@ -385,9 +367,10 @@
 				<string>bold</string>
 			</dict>
 		</dict>
+		
 		<dict>
 			<key>name</key>
-			<string>Markup Italic</string>
+			<string>Markup italic</string>
 			<key>scope</key>
 			<string>markup.italic</string>
 			<key>settings</key>
@@ -396,9 +379,10 @@
 				<string>italic</string>
 			</dict>
 		</dict>
+		
 		<dict>
 			<key>name</key>
-			<string>Markup Underline</string>
+			<string>Markup underline</string>
 			<key>scope</key>
 			<string>markup.underline</string>
 			<key>settings</key>
@@ -407,9 +391,10 @@
 				<string>underline</string>
 			</dict>
 		</dict>
+		
 		<dict>
 			<key>name</key>
-			<string>Markup Quote</string>
+			<string>Markup quote</string>
 			<key>scope</key>
 			<string>markup.quote, markup.raw.block</string>
 			<key>settings</key>
@@ -418,9 +403,10 @@
 				<string>#696d70</string>
 			</dict>
 		</dict>
+		
 		<dict>
 			<key>name</key>
-			<string>Markup Inline</string>
+			<string>Markup inline</string>
 			<key>scope</key>
 			<string>markup.inline</string>
 			<key>settings</key>
@@ -429,9 +415,125 @@
 				<string>#ae81ff</string>
 			</dict>
 		</dict>
+		
+		<!-- Language specific -->
 		<dict>
 			<key>name</key>
-			<string>Markup Link</string>
+			<string>Normal</string>
+			<key>scope</key>
+			<string>
+				keyword.operator.dereference.java,
+				meta.preprocessor.haskell,
+				punctuation.separator.java,
+				variable.parameter.java,
+				variable.parameter.js
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cccccc</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Keyword</string>
+			<key>scope</key>
+			<string>
+				constant.other.symbol.prolog,
+				support.function.be.latex,
+				support.function.general.tex,
+				support.function.section.latex
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f92672</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Data modifier</string>
+			<key>scope</key>
+			<string>
+				entity.name.type.go,
+				entity.name.type.namespace.php,
+				meta.import.scala,
+				punctuation.separator.inheritance.php,
+				storage.type.js,
+				support.other.module.haskell,
+				support.other.namespace.use.php,
+				variable.other.constant.ruby
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#49e0fd</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Data type</string>
+			<key>scope</key>
+			<string>
+				keyword.control.def.ruby,
+				keyword.declaration.scala,
+				keyword.declaration.stable.scala,
+				keyword.declaration.volatile.scala,
+				keyword.other.fn.rust,
+				keyword.other.rust
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#2be98a</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Member variables/functions</string>
+			<key>scope</key>
+			<string>
+				meta.function-call.object.php,
+				meta.function-call.static.php,
+				variable.other.makefile,
+				variable.other.prolog
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#fd971f</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Functions</string>
+			<key>scope</key>
+			<string>
+				meta.function-call.php,
+				support.function.builtin.rust,
+				support.function.C99,
+				support.function.core.ruby,
+				support.function.go,
+				support.function.js,
+				support.function.log.rust,
+				support.function.magic.php,
+				support.function.std.rust
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b0ec38</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Markdown link</string>
 			<key>scope</key>
 			<string>string.other.link.title.markdown,
 					string.other.link.description.markdown
@@ -442,22 +544,23 @@
 				<string>#49e0fd</string>
 			</dict>
 		</dict>
+		
 		<dict>
 			<key>name</key>
 			<string>Markdown fade</string>
 			<key>scope</key>
-			<string>punctuation.definition.heading.markdown,
-					punctuation.definition.bold.markdown,
-					punctuation.definition.italic.markdown,
-					punctuation.definition.list.markdown,
-					punctuation.definition.string.begin.markdown,
-					punctuation.definition.string.end.markdown,
-					punctuation.definition.metadata.markdown,
-					punctuation.definition.raw.markdown,
-					markup.underline.link.image.markdown,
-					markup.underline.link.markdown,
-					markup.list.unnumbered.markdown,
-					markup.list.numbered.markdown
+			<string>
+				beginning.punctuation.definition.list.markdown,
+				punctuation.definition.list.markdown,
+				punctuation.definition.heading.markdown,
+				punctuation.definition.bold.markdown,
+				punctuation.definition.italic.markdown,
+				punctuation.definition.string.begin.markdown,
+				punctuation.definition.string.end.markdown,
+				punctuation.definition.metadata.markdown,
+				punctuation.definition.raw.markdown,
+				markup.underline.link.image.markdown,
+				markup.underline.link.markdown
 			</string>
 			<key>settings</key>
 			<dict>

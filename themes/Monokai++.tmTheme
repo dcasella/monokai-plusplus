@@ -112,13 +112,7 @@
 			<key>name</key>
 			<string>Normal</string>
 			<key>scope</key>
-			<string>
-				entity.name.function.preprocessor,
-				meta.preprocessor.macro,
-				storage.modifier.import,
-				storage.type.generic,
-				variable.other
-			</string>
+			<string>entity.name.function.preprocessor, meta.preprocessor.macro, storage.modifier.import, storage.type.generic, variable.other</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -178,10 +172,7 @@
 			<key>name</key>
 			<string>Language constant</string>
 			<key>scope</key>
-			<string>
-				constant.language,
-				constant.numeric
-			</string>
+			<string>constant.language, constant.numeric</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -193,11 +184,7 @@
 			<key>name</key>
 			<string>Escape/constant</string>
 			<key>scope</key>
-			<string>
-				constant.character,
-				constant.other.placeholder,
-				support.other.escape.special.regexp
-			</string>
+			<string>constant.character, constant.other.placeholder, support.other.escape.special.regexp</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -221,11 +208,7 @@
 			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
-			<string>
-				entity.name.variable.property,
-				keyword,
-				meta.preprocessor
-			</string>
+			<string>entity.name.variable.property, keyword, meta.preprocessor</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -237,10 +220,7 @@
 			<key>name</key>
 			<string>Data modifier</string>
 			<key>scope</key>
-			<string>
-				storage,
-				support.constant
-			</string>
+			<string>storage, support.constant</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -252,12 +232,7 @@
 			<key>name</key>
 			<string>Data type</string>
 			<key>scope</key>
-			<string>
-				keyword.type,
-				storage.type,
-				support.class,
-				support.type
-			</string>
+			<string>keyword.type, storage.type, support.class, support.type</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -269,11 +244,7 @@
 			<key>name</key>
 			<string>Member variables/functions</string>
 			<key>scope</key>
-			<string>
-				variable.language,
-				variable.other.member,
-				variable.parameter
-			</string>
+			<string>variable.language, variable.other.member, variable.parameter</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -285,11 +256,7 @@
 			<key>name</key>
 			<string>Punctuation</string>
 			<key>scope</key>
-			<string>
-				punctuation.section.embedded,
-				punctuation.separator,
-				storage.type.function.arrow
-			</string>
+			<string>punctuation.accessor, punctuation.section.embedded, punctuation.separator, storage.type.function.arrow</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -313,10 +280,7 @@
 			<key>name</key>
 			<string>Tags</string>
 			<key>scope</key>
-			<string>
-				entity.name.tag,
-				entity.other.attribute-name
-			</string>
+			<string>entity.name.tag, entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -328,13 +292,7 @@
 			<key>name</key>
 			<string>Functions</string>
 			<key>scope</key>
-			<string>
-				entity.name.function,
-				meta.function-call.generic,
-				meta.function-call.method,
-				support.function.any-method,
-				support.function.misc
-			</string>
+			<string>entity.name.function, meta.function-call.generic, meta.function-call.method, support.function.any-method, support.function.misc, variable.function</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -349,10 +307,10 @@
 			<string>markup.heading</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#f92672</string>
 				<key>fontStyle</key>
 				<string>bold</string>
+				<key>foreground</key>
+				<string>#f92672</string>
 			</dict>
 		</dict>
 		
@@ -421,13 +379,7 @@
 			<key>name</key>
 			<string>Normal</string>
 			<key>scope</key>
-			<string>
-				keyword.operator.dereference.java,
-				meta.preprocessor.haskell,
-				punctuation.separator.java,
-				variable.parameter.java,
-				variable.parameter.js
-			</string>
+			<string>keyword.operator.dereference.java, meta.preprocessor.haskell, punctuation.separator.java, variable.parameter.java, variable.parameter.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -439,12 +391,7 @@
 			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
-			<string>
-				constant.other.symbol.prolog,
-				support.function.be.latex,
-				support.function.general.tex,
-				support.function.section.latex
-			</string>
+			<string>constant.other.symbol.prolog, support.function.be.latex, support.function.general.tex, support.function.section.latex</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -456,16 +403,7 @@
 			<key>name</key>
 			<string>Data modifier</string>
 			<key>scope</key>
-			<string>
-				entity.name.type.go,
-				entity.name.type.namespace.php,
-				meta.import.scala,
-				punctuation.separator.inheritance.php,
-				storage.type.js,
-				support.other.module.haskell,
-				support.other.namespace.use.php,
-				variable.other.constant.ruby
-			</string>
+			<string>entity.name.type.go, entity.name.type.namespace.php, meta.import.scala, punctuation.separator.inheritance.php, storage.type.js, support.other.module.haskell, support.other.namespace.use.php, variable.other.constant.ruby</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -477,14 +415,7 @@
 			<key>name</key>
 			<string>Data type</string>
 			<key>scope</key>
-			<string>
-				keyword.control.def.ruby,
-				keyword.declaration.scala,
-				keyword.declaration.stable.scala,
-				keyword.declaration.volatile.scala,
-				keyword.other.fn.rust,
-				keyword.other.rust
-			</string>
+			<string>keyword.control.def.ruby, keyword.declaration.scala, keyword.declaration.stable.scala, keyword.declaration.volatile.scala, keyword.other.fn.rust, keyword.other.rust</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -496,12 +427,7 @@
 			<key>name</key>
 			<string>Member variables/functions</string>
 			<key>scope</key>
-			<string>
-				meta.function-call.object.php,
-				meta.function-call.static.php,
-				variable.other.makefile,
-				variable.other.prolog
-			</string>
+			<string>meta.function-call.object.php, meta.function-call.static.php, variable.other.makefile, variable.other.prolog</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -513,17 +439,7 @@
 			<key>name</key>
 			<string>Functions</string>
 			<key>scope</key>
-			<string>
-				meta.function-call.php,
-				support.function.builtin.rust,
-				support.function.C99,
-				support.function.core.ruby,
-				support.function.go,
-				support.function.js,
-				support.function.log.rust,
-				support.function.magic.php,
-				support.function.std.rust
-			</string>
+			<string>meta.function-call.php, support.function.builtin.rust, support.function.C99, support.function.core.ruby, support.function.go, support.function.js, support.function.log.rust, support.function.magic.php, support.function.std.rust</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -535,9 +451,7 @@
 			<key>name</key>
 			<string>Markdown link</string>
 			<key>scope</key>
-			<string>string.other.link.title.markdown,
-					string.other.link.description.markdown
-			</string>
+			<string>string.other.link.title.markdown, 	string.other.link.description.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -549,25 +463,13 @@
 			<key>name</key>
 			<string>Markdown fade</string>
 			<key>scope</key>
-			<string>
-				beginning.punctuation.definition.list.markdown,
-				punctuation.definition.list.markdown,
-				punctuation.definition.heading.markdown,
-				punctuation.definition.bold.markdown,
-				punctuation.definition.italic.markdown,
-				punctuation.definition.string.begin.markdown,
-				punctuation.definition.string.end.markdown,
-				punctuation.definition.metadata.markdown,
-				punctuation.definition.raw.markdown,
-				markup.underline.link.image.markdown,
-				markup.underline.link.markdown
-			</string>
+			<string>beginning.punctuation.definition.list.markdown, punctuation.definition.list.markdown, punctuation.definition.heading.markdown, punctuation.definition.bold.markdown, punctuation.definition.italic.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.metadata.markdown, punctuation.definition.raw.markdown, markup.underline.link.image.markdown, markup.underline.link.markdown</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#696d70</string>
 				<key>fontStyle</key>
 				<string>normal</string>
+				<key>foreground</key>
+				<string>#696d70</string>
 			</dict>
 		</dict>
 	</array>

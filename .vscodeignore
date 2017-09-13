@@ -9,3 +9,6 @@ example_code.*
 
 # Code snippets
 **/snippet.*
+
+# Sublime Theme
+*.tmTheme

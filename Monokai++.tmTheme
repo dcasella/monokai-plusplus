@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Monokai++</string>
+	<key>author</key>
+	<string>Davide Casella (https://dcasella.ovh)</string>
+	<key>colorSpaceName</key>
+	<string>sRGB</string>
+	<key>settings</key>
+	<array>
+		<!-- Editor -->
+		<dict>
+			<key>settings</key>
+			<dict>
+				<!-- TextMate -->
+				<key>background</key>
+				<string>#1c1c1c</string>
+				
+				<key>foreground</key>
+				<string>#cccccc</string>
+				
+				<key>caret</key>
+				<string>#cccccc</string>
+				
+				<key>invisibles</key>
+				<string>#3a3a3b</string>
+				
+				<key>lineHighlight</key>
+				<string>#252526</string>
+				
+				<key>selection</key>
+				<string>#59201b</string>
+				
+				<!-- Visual Studio Code -->
+				<!--
+					Background color of range highlighted, like by Quick open
+					and Find features
+				-->
+				<key>rangeHighlight</key>
+				<string>#292929</string>
+				
+				<!--
+					Background color of regions highlighted while selecting
+				-->
+				<key>selectionHighlight</key>
+				<string>#292929</string>
+				
+				<!--
+					Background color of selections when not in focus
+				-->
+				<!--
+				<key>inactiveSelection</key>
+				<string>#402725</string>
+				-->
+				
+				<!--
+					Background color of a symbol during read-access, like
+					reading a variable
+				-->
+				<key>wordHighlight</key>
+				<string></string>
+				
+				<!--
+					Background color of a symbol during write-access, like
+					writing to a variable
+				-->
+				<key>wordHighlightStrong</key>
+				<string></string>
+				
+				<!--
+					Background color of regions matching the search
+				-->
+				<key>findMatchHighlight</key>
+				<string>#435c80</string>
+				
+				<!--
+					Background color of the current region matching the search
+				-->
+				<key>currentFindMatchHighlight</key>
+				<string>#50698d</string>
+				
+				<!--
+					Background color of regions selected for search
+				-->
+				<key>findRangeHighlight</key>
+				<string></string>
+				
+				<!--
+					Background color when hovered
+				-->
+				<key>hoverHighlight</key>
+				<string>#252526</string>
+				
+				<!--
+					Background color of a reference when finding all references
+				-->
+				<key>referenceHighlight</key>
+				<string></string>
+				
+				<!--
+					Color of the guides displayed to indicate nesting levels
+				-->
+				<key>guide</key>
+				<string>#1f1f1f</string>
+			</dict>
+		</dict>
+		
+		<!-- General -->
+		<dict>
+			<key>name</key>
+			<string>Normal</string>
+			<key>scope</key>
+			<string>entity.name.function.preprocessor, meta.preprocessor.macro, storage.modifier.import, storage.type.generic, variable.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cccccc</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Invalid</string>
+			<key>scope</key>
+			<string>invalid</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#e62a19</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Comment</string>
+			<key>scope</key>
+			<string>comment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#696d70</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>String</string>
+			<key>scope</key>
+			<string>string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e6db74</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Regexp</string>
+			<key>scope</key>
+			<string>string.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#49e0fd</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Language constant</string>
+			<key>scope</key>
+			<string>constant.language, constant.numeric</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ae81ff</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Escape/constant</string>
+			<key>scope</key>
+			<string>constant.character, constant.other.placeholder, support.other.escape.special.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e62a19</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Other constant</string>
+			<key>scope</key>
+			<string>constant.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#fd971f</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Keyword</string>
+			<key>scope</key>
+			<string>entity.name.variable.property, keyword, meta.preprocessor</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f92672</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Data modifier</string>
+			<key>scope</key>
+			<string>storage, support.constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#49e0fd</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Data type</string>
+			<key>scope</key>
+			<string>keyword.type, storage.type, support.class, support.type</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#2be98a</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Member variables/functions</string>
+			<key>scope</key>
+			<string>variable.language, variable.other.member, variable.parameter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#fd971f</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Punctuation</string>
+			<key>scope</key>
+			<string>punctuation.accessor, punctuation.section.embedded, punctuation.separator, storage.type.function.arrow</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f92672</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Punctuation in parameters</string>
+			<key>scope</key>
+			<string>punctuation.separator.parameters</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#fd971f</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Tags</string>
+			<key>scope</key>
+			<string>entity.name.tag, entity.other.attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f92672</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Functions</string>
+			<key>scope</key>
+			<string>entity.name.function, meta.function-call.generic, meta.function-call.method, support.function.any-method, support.function.misc, variable.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b0ec38</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Markup header</string>
+			<key>scope</key>
+			<string>markup.heading</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#f92672</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Markup bold</string>
+			<key>scope</key>
+			<string>markup.bold</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Markup italic</string>
+			<key>scope</key>
+			<string>markup.italic</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Markup underline</string>
+			<key>scope</key>
+			<string>markup.underline</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>underline</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Markup quote</string>
+			<key>scope</key>
+			<string>markup.quote, markup.raw.block</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#696d70</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Markup inline</string>
+			<key>scope</key>
+			<string>markup.inline</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ae81ff</string>
+			</dict>
+		</dict>
+		
+		<!-- Language specific -->
+		<dict>
+			<key>name</key>
+			<string>Normal</string>
+			<key>scope</key>
+			<string>keyword.operator.dereference.java, meta.preprocessor.haskell, punctuation.separator.java, variable.parameter.java, variable.parameter.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cccccc</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Keyword</string>
+			<key>scope</key>
+			<string>constant.other.symbol.prolog, support.function.be.latex, support.function.general.tex, support.function.section.latex</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f92672</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Data modifier</string>
+			<key>scope</key>
+			<string>entity.name.type.go, entity.name.type.namespace.php, meta.import.scala, punctuation.separator.inheritance.php, storage.type.js, support.other.module.haskell, support.other.namespace.use.php, variable.other.constant.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#49e0fd</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Data type</string>
+			<key>scope</key>
+			<string>keyword.control.def.ruby, keyword.declaration.scala, keyword.declaration.stable.scala, keyword.declaration.volatile.scala, keyword.other.fn.rust, keyword.other.rust</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#2be98a</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Member variables/functions</string>
+			<key>scope</key>
+			<string>meta.function-call.object.php, meta.function-call.static.php, variable.other.makefile, variable.other.prolog</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#fd971f</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Functions</string>
+			<key>scope</key>
+			<string>meta.function-call.php, support.function.builtin.rust, support.function.C99, support.function.core.ruby, support.function.go, support.function.js, support.function.log.rust, support.function.magic.php, support.function.std.rust</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b0ec38</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Markdown link</string>
+			<key>scope</key>
+			<string>string.other.link.title.markdown, 	string.other.link.description.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#49e0fd</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Markdown fade</string>
+			<key>scope</key>
+			<string>beginning.punctuation.definition.list.markdown, punctuation.definition.list.markdown, punctuation.definition.heading.markdown, punctuation.definition.bold.markdown, punctuation.definition.italic.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.metadata.markdown, punctuation.definition.raw.markdown, markup.underline.link.image.markdown, markup.underline.link.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>normal</string>
+				<key>foreground</key>
+				<string>#696d70</string>
+			</dict>
+		</dict>
+	</array>
+	<key>uuid</key>
+	<string>4651cee0-9b86-4121-8ba9-22c2bd97d4a4</string>
+</dict>
+</plist>

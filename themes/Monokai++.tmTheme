@@ -220,7 +220,7 @@
 			<key>name</key>
 			<string>Data modifier</string>
 			<key>scope</key>
-			<string>storage, support.constant</string>
+			<string>storage, support.constant, punctuation.section.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -244,7 +244,7 @@
 			<key>name</key>
 			<string>Member variables/functions</string>
 			<key>scope</key>
-			<string>variable.language, variable.other.member, variable.parameter</string>
+			<string>variable.language, variable.other.member, variable.parameter, variable.other.readwrite.member</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -451,7 +451,7 @@
 			<key>name</key>
 			<string>Markdown link</string>
 			<key>scope</key>
-			<string>string.other.link.title.markdown, 	string.other.link.description.markdown</string>
+			<string>string.other.link.title.markdown, string.other.link.description.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -463,11 +463,80 @@
 			<key>name</key>
 			<string>Markdown fade</string>
 			<key>scope</key>
-			<string>beginning.punctuation.definition.list.markdown, punctuation.definition.list.markdown, punctuation.definition.heading.markdown, punctuation.definition.bold.markdown, punctuation.definition.italic.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.metadata.markdown, punctuation.definition.raw.markdown, markup.underline.link.image.markdown, markup.underline.link.markdown</string>
+			<string>beginning.punctuation.definition.list.markdown, punctuation.definition.list_item.markdown, punctuation.definition.list.markdown, punctuation.definition.heading.markdown, punctuation.definition.bold.markdown, punctuation.definition.italic.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.bold.begin.markdown, punctuation.definition.bold.end.markdown, punctuation.definition.italic.begin.markdown, punctuation.definition.italic.end.markdown, punctuation.definition.heading.begin.markdown, punctuation.definition.heading.end.markdown, punctuation.definition.raw.begin.markdown, punctuation.definition.raw.end.markdown, punctuation.definition.metadata.markdown, punctuation.definition.raw.markdown, markup.underline.link.image.markdown, markup.underline.link.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>normal</string>
+				<key>foreground</key>
+				<string>#696d70</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Markup inline</string>
+			<key>scope</key>
+			<string>markup.inline, markup.raw.inline</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ae81ff</string>
+			</dict>
+		</dict>
+		
+		<!-- GitGutter -->
+		<dict>
+			<key>name</key>
+			<string>GitGutter deleted</string>
+			<key>scope</key>
+			<string>markup.deleted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f92672</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter inserted</string>
+			<key>scope</key>
+			<string>markup.inserted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#2be98a</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter changed</string>
+			<key>scope</key>
+			<string>markup.changed.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ae81ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter ignored</string>
+			<key>scope</key>
+			<string>markup.ignored.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#696d70</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter untracked</string>
+			<key>scope</key>
+			<string>markup.untracked.git_gutter</string>
+			<key>settings</key>
+			<dict>
 				<key>foreground</key>
 				<string>#696d70</string>
 			</dict>

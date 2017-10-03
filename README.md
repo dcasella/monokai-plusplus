@@ -14,22 +14,22 @@ Feel free to open GitHub Issues to report any problem with the Color Scheme or s
 
 **Package Control:**
 
-`Ctrl/Command + Shift + P` to open the Command Palette  
+<kbd>Ctrl</kbd>/<kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> to open the Command Palette  
 Select `Package Control: Install Package`  
 Search for `monokai++`  
-Press `Enter`
+Press <kbd>Enter</kbd>
 
 ### Visual Studio Code
 
 **Option 1:**
 
-`Ctrl/Command + Shift + X` to open the Extensions tab  
+<kbd>Ctrl</kbd>/<kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd> to open the Extensions tab  
 Search for `monokai++`  
 Click Install
 
 **Option 2:**
 
-`Ctrl/Command + P` to launch the command palette  
+<kbd>Ctrl</kbd>/<kbd>Command</kbd>+<kbd>P</kbd> to launch the command palette  
 Write `ext install monokai-plusplus`
 
 ## Screenshots

@@ -379,7 +379,7 @@
 			<key>name</key>
 			<string>Normal</string>
 			<key>scope</key>
-			<string>keyword.operator.dereference.java, meta.preprocessor.haskell, punctuation.separator.java, variable.parameter.java, variable.parameter.js</string>
+			<string>keyword.operator.dereference.java, meta.preprocessor.haskell, punctuation.separator.java, variable.parameter.java, variable.parameter.js, meta.group.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -391,7 +391,7 @@
 			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
-			<string>constant.other.symbol.prolog, support.function.be.latex, support.function.general.tex, support.function.section.latex</string>
+			<string>constant.other.symbol.prolog, support.function.be.latex, support.function.general.tex, support.function.section.latex, punctuation.dollar.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

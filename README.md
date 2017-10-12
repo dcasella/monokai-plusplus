@@ -1,12 +1,13 @@
 # Monokai++ Theme
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/dcasella.monokai-plusplus.svg)](https://marketplace.visualstudio.com/items?itemName=dcasella.monokai-plusplus)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/dcasella.monokai-plusplus.svg)](https://marketplace.visualstudio.com/items?itemName=dcasella.monokai-plusplus)
-[![Rating](https://vsmarketplacebadge.apphb.com/rating/dcasella.monokai-plusplus.svg)](https://marketplace.visualstudio.com/items?itemName=dcasella.monokai-plusplus)
-[![GitHub stars](https://img.shields.io/github/stars/dcasella/monokai-plusplus.svg?style=social&label=Star)](https://github.com/dcasella/monokai-plusplus)
+[![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/v/dcasella.monokai-plusplus.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=dcasella.monokai-plusplus)
+[![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/d/dcasella.monokai-plusplus.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=dcasella.monokai-plusplus)
+[![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/r/dcasella.monokai-plusplus.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=dcasella.monokai-plusplus)  
+[![Package Control](https://img.shields.io/badge/package%20control-v1.6.1-brightgreen.svg?style=flat-square)](https://packagecontrol.io/packages/Monokai%2B%2B)
+[![Package Control](https://img.shields.io/packagecontrol/dt/Monokai%2B%2B.svg?style=flat-square)](https://packagecontrol.io/packages/Monokai%2B%2B)
 
 A modern Monokai theme for Sublime Text 3 and Visual Studio Code.  
-Feel free to open GitHub Issues to report any problem with the Color Scheme or submit suggestions.
+Feel free to open GitHub Issues to report any problem with the color scheme or submit suggestions.
 
 ## Installation
 

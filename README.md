@@ -3,7 +3,7 @@
 [![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/v/dcasella.monokai-plusplus.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=dcasella.monokai-plusplus)
 [![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/d/dcasella.monokai-plusplus.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=dcasella.monokai-plusplus)
 [![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/r/dcasella.monokai-plusplus.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=dcasella.monokai-plusplus)  
-[![Package Control](https://img.shields.io/badge/package%20control-v1.6.2-brightgreen.svg?style=flat-square)](https://packagecontrol.io/packages/Monokai%2B%2B)
+[![Package Control](https://img.shields.io/badge/package%20control-v1.6.3-brightgreen.svg?style=flat-square)](https://packagecontrol.io/packages/Monokai%2B%2B)
 [![Package Control](https://img.shields.io/packagecontrol/dt/Monokai%2B%2B.svg?style=flat-square)](https://packagecontrol.io/packages/Monokai%2B%2B)
 
 A modern Monokai theme for Sublime Text 3 and Visual Studio Code.  
@@ -31,7 +31,7 @@ Click Install
 **Option 2:**
 
 <kbd>Ctrl</kbd>/<kbd>Command</kbd>+<kbd>P</kbd> to launch the command palette  
-Write `ext install monokai-plusplus`
+Write `ext install dcasella.monokai-plusplus`
 
 ## Screenshots
 

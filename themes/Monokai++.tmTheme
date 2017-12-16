@@ -415,7 +415,7 @@
 			<key>name</key>
 			<string>Data type</string>
 			<key>scope</key>
-			<string>keyword.control.def.ruby, keyword.declaration.scala, keyword.declaration.stable.scala, keyword.declaration.volatile.scala, keyword.other.fn.rust, keyword.other.rust</string>
+			<string>keyword.control.def.ruby, keyword.declaration.scala, keyword.declaration.stable.scala, keyword.declaration.volatile.scala, keyword.other.fn.rust, keyword.other.rust, meta.structure.dictionary.key.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

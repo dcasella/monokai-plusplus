@@ -6,6 +6,8 @@
 [![Package Control](https://img.shields.io/badge/package%20control-v1.6.3-brightgreen.svg?style=flat-square)](https://packagecontrol.io/packages/Monokai%2B%2B)
 [![Package Control](https://img.shields.io/packagecontrol/dt/Monokai%2B%2B.svg?style=flat-square)](https://packagecontrol.io/packages/Monokai%2B%2B)
 
+![Logo](images/logo.png)
+
 A modern Monokai theme for Sublime Text 3 and Visual Studio Code.  
 Feel free to open GitHub Issues to report any problem with the color scheme or submit suggestions.
 
@@ -37,11 +39,11 @@ Write `ext install dcasella.monokai-plusplus`
 
 Sublime Text 3 C++ example code
 
-![ST3 Screenshot](screenshotst3.png)
+![ST3 Screenshot](images/screenshotst3.png)
 
 VS Code C++ example code
 
-![VSC Screenshot](screenshotvsc.png)
+![VSC Screenshot](images/screenshotvsc.png)
 
 ## Issues
 

@@ -38,66 +38,64 @@
 					Background color of range highlighted, like by Quick open
 					and Find features
 				-->
-				<key>rangeHighlight</key>
-				<string>#292929</string>
+				<!-- <key>rangeHighlight</key>
+				<string></string> -->
 
 				<!--
 					Background color of regions highlighted while selecting
 				-->
-				<key>selectionHighlight</key>
-				<string>#292929</string>
+				<!-- <key>selectionHighlight</key>
+				<string></string> -->
 
 				<!--
 					Background color of selections when not in focus
 				-->
-				<!--
 				<key>inactiveSelection</key>
 				<string>#402725</string>
-				-->
 
 				<!--
 					Background color of a symbol during read-access, like
 					reading a variable
 				-->
 				<key>wordHighlight</key>
-				<string></string>
+				<string>#402725</string>
 
 				<!--
 					Background color of a symbol during write-access, like
 					writing to a variable
 				-->
 				<key>wordHighlightStrong</key>
-				<string></string>
+				<string>#402725</string>
 
 				<!--
 					Background color of regions matching the search
 				-->
-				<key>findMatchHighlight</key>
-				<string>#435c80</string>
+				<!-- <key>findMatchHighlight</key>
+				<string></string> -->
 
 				<!--
 					Background color of the current region matching the search
 				-->
-				<key>currentFindMatchHighlight</key>
-				<string>#50698d</string>
+				<!-- <key>currentFindMatchHighlight</key>
+				<string></string> -->
 
 				<!--
 					Background color of regions selected for search
 				-->
-				<key>findRangeHighlight</key>
-				<string></string>
+				<!-- <key>findRangeHighlight</key>
+				<string></string> -->
 
 				<!--
 					Background color when hovered
 				-->
-				<key>hoverHighlight</key>
-				<string>#252526</string>
+				<!-- <key>hoverHighlight</key>
+				<string></string> -->
 
 				<!--
 					Background color of a reference when finding all references
 				-->
-				<key>referenceHighlight</key>
-				<string></string>
+				<!-- <key>referenceHighlight</key>
+				<string></string> -->
 
 				<!--
 					Color of the guides displayed to indicate nesting levels

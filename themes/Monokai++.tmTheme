@@ -101,7 +101,7 @@
 					Color of the guides displayed to indicate nesting levels
 				-->
 				<key>guide</key>
-				<string>#1f1f1f</string>
+				<string>#3a3a3b</string>
 			</dict>
 		</dict>
 

@@ -377,7 +377,7 @@
 			<key>name</key>
 			<string>Normal</string>
 			<key>scope</key>
-			<string>keyword.operator.dereference.java, meta.preprocessor.haskell, punctuation.separator.java, variable.parameter.java, variable.parameter.js, meta.group.js, meta.group.go</string>
+			<string>keyword.operator.dereference.java, meta.preprocessor.haskell, punctuation.separator.java, variable.parameter.java, variable.parameter.js, meta.group.js, meta.group.go, punctuation.section.class.begin.python</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -401,7 +401,7 @@
 			<key>name</key>
 			<string>Data modifier</string>
 			<key>scope</key>
-			<string>entity.name.type.go, entity.name.type.namespace.php, meta.import.scala, punctuation.separator.inheritance.php, storage.type.js, support.other.module.haskell, support.other.namespace.use.php, variable.other.constant.ruby, entity.name.section.puppet</string>
+			<string>entity.name.type.go, entity.name.type.namespace.php, meta.import.scala, punctuation.separator.inheritance.php, storage.type.js, support.other.module.haskell, support.other.namespace.use.php, variable.other.constant.ruby, entity.name.section.puppet, entity.name.function.decorator.python</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -437,7 +437,7 @@
 			<key>name</key>
 			<string>Functions</string>
 			<key>scope</key>
-			<string>meta.function-call.php, support.function.builtin.rust, support.function.C99, support.function.core.ruby, support.function.go, support.function.js, support.function.log.rust, support.function.magic.php, support.function.std.rust, support.function.builtin.python, support.function.builtin.go</string>
+			<string>meta.function-call.php, support.function.builtin.rust, support.function.C99, support.function.core.ruby, support.function.go, support.function.js, support.function.log.rust, support.function.magic.php, support.function.std.rust, support.function.builtin.python, support.function.builtin.go, support.function.builtin.shell, meta.function-call.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

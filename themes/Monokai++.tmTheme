@@ -352,7 +352,7 @@
 			<key>name</key>
 			<string>Markup quote</string>
 			<key>scope</key>
-			<string>markup.quote, markup.raw.block</string>
+			<string>markup.quote</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -364,7 +364,7 @@
 			<key>name</key>
 			<string>Markup inline</string>
 			<key>scope</key>
-			<string>markup.inline</string>
+			<string>markup.inline, markup.raw.inline</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -468,18 +468,6 @@
 				<string>normal</string>
 				<key>foreground</key>
 				<string>#696d70</string>
-			</dict>
-		</dict>
-
-		<dict>
-			<key>name</key>
-			<string>Markup inline</string>
-			<key>scope</key>
-			<string>markup.inline, markup.raw.inline</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#ae81ff</string>
 			</dict>
 		</dict>
 

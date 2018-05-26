@@ -377,7 +377,7 @@
 			<key>name</key>
 			<string>Normal</string>
 			<key>scope</key>
-			<string>keyword.operator.dereference.java, meta.preprocessor.haskell, punctuation.separator.java, variable.parameter.java, variable.parameter.js, meta.group.js, meta.group.go, punctuation.section.class.begin.python</string>
+			<string>keyword.operator.dereference.java, meta.preprocessor.haskell, punctuation.separator.java, variable.parameter.java, variable.parameter.js, meta.group.js, meta.group.go, punctuation.section.class.begin.python, support.variable.dom.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -425,7 +425,7 @@
 			<key>name</key>
 			<string>Member variables/functions</string>
 			<key>scope</key>
-			<string>meta.function-call.object.php, meta.function-call.static.php, variable.other.makefile, variable.other.prolog</string>
+			<string>meta.function-call.object.php, meta.function-call.static.php, variable.other.makefile, variable.other.prolog, variable.other.property.js, support.variable.property.dom.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

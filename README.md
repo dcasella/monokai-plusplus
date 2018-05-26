@@ -17,22 +17,22 @@ Feel free to open GitHub Issues to report any problem with the color scheme or s
 
 **Package Control:**
 
-<kbd>Ctrl</kbd>/<kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> to open the Command Palette  
+`Ctrl/Command + Shift + P` to open the Command Palette  
 Select `Package Control: Install Package`  
 Search for `monokai++`  
-Press <kbd>Enter</kbd>
+Press `Enter`
 
 ### Visual Studio Code
 
 **Option 1:**
 
-<kbd>Ctrl</kbd>/<kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd> to open the Extensions tab  
+`Ctrl/Command + Shift + X` to open the Extensions tab  
 Search for `monokai++`  
 Click Install
 
 **Option 2:**
 
-<kbd>Ctrl</kbd>/<kbd>Command</kbd>+<kbd>P</kbd> to launch the command palette  
+`Ctrl/Command + P` to launch the command palette  
 Write `ext install dcasella.monokai-plusplus`
 
 ## Screenshots

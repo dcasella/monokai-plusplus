@@ -1,2 +1,5 @@
 # Standard
 .gitignore
+
+# VS Code
+/.history/

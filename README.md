@@ -3,7 +3,7 @@
 [![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/v/dcasella.monokai-plusplus.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=dcasella.monokai-plusplus)
 [![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/d/dcasella.monokai-plusplus.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=dcasella.monokai-plusplus)
 [![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/r/dcasella.monokai-plusplus.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=dcasella.monokai-plusplus)  
-[![Package Control](https://img.shields.io/badge/package%20control-v1.6.9-brightgreen.svg?style=flat-square)](https://packagecontrol.io/packages/Monokai%2B%2B)
+[![Package Control](https://img.shields.io/badge/package%20control-v1.6.10-brightgreen.svg?style=flat-square)](https://packagecontrol.io/packages/Monokai%2B%2B)
 [![Package Control](https://img.shields.io/packagecontrol/dt/Monokai%2B%2B.svg?style=flat-square)](https://packagecontrol.io/packages/Monokai%2B%2B)
 
 ![Header](https://i.imgur.com/bQYydRr.png)

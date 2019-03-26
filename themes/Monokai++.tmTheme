@@ -413,7 +413,7 @@
 			<key>name</key>
 			<string>Data type</string>
 			<key>scope</key>
-			<string>keyword.control.def.ruby, keyword.declaration.scala, keyword.declaration.stable.scala, keyword.declaration.volatile.scala, keyword.other.fn.rust, keyword.other.rust, meta.structure.dictionary.key.json</string>
+			<string>keyword.control.def.ruby, keyword.declaration.scala, keyword.declaration.stable.scala, keyword.declaration.volatile.scala, keyword.other.fn.rust, keyword.other.rust, meta.structure.dictionary.key.json, storage.class.std.rust</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -442,6 +442,18 @@
 			<dict>
 				<key>foreground</key>
 				<string>#b0ec38</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Language constant</string>
+			<key>scope</key>
+			<string>constant.other.boolean.toml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ae81ff</string>
 			</dict>
 		</dict>
 

@@ -1,37 +1,37 @@
 {
-    "name": "monokai-plusplus",
-    "displayName": "Monokai++",
-    "description": "A modern Monokai theme for Sublime Text 3 and Visual Studio Code",
-    "version": "1.6.8",
-    "publisher": "dcasella",
-    "icon": "images/logo.png",
-    "galleryBanner": {
-        "color": "#f1f1f1",
-        "theme": "light"
-    },
-    "engines": {
-        "vscode": "^1.5.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "keywords": [
-        "monokai"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Monokai++",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Monokai++.tmTheme"
-            }
-        ]
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/dcasella/monokai-plusplus.git"
-    },
-    "bugs": {
-        "url": "https://github.com/dcasella/monokai-plusplus/issues"
-    }
+	"name": "monokai-plusplus",
+	"displayName": "Monokai++",
+	"description": "A modern Monokai theme for Sublime Text 3 and Visual Studio Code",
+	"version": "1.6.8",
+	"publisher": "dcasella",
+	"icon": "images/logo.png",
+	"galleryBanner": {
+		"color": "#f1f1f1",
+		"theme": "light"
+	},
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"monokai"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Monokai++",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Monokai++.tmTheme"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dcasella/monokai-plusplus.git"
+	},
+	"bugs": {
+		"url": "https://github.com/dcasella/monokai-plusplus/issues"
+	}
 }

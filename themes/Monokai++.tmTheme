@@ -483,6 +483,35 @@
 			</dict>
 		</dict>
 
+		<!-- JS Template Literals -->
+		<dict>
+			<key>name</key>
+			<string>JS template string literal delimiters</string>
+			<key>scope</key>
+			<string>string.template-string punctuation.template-string.element.begin, punctuation.template-string.element.end</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>normal</string>
+				<key>foreground</key>
+				<string>#fd9720</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>JS template string literal object props</string>
+			<key>scope</key>
+			<string>string.template-string meta.property.object</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>normal</string>
+				<key>foreground</key>
+				<string>#cccccc</string>
+			</dict>
+		</dict>
+
 		<!-- diff -->
 		<dict>
 			<key>name</key>

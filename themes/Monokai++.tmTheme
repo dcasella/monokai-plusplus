@@ -146,7 +146,7 @@
 			<key>name</key>
 			<string>String</string>
 			<key>scope</key>
-			<string>string</string>
+			<string>string, string.quoted</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -254,7 +254,7 @@
 			<key>name</key>
 			<string>Punctuation</string>
 			<key>scope</key>
-			<string>punctuation.accessor, punctuation.section.embedded, punctuation.separator, storage.type.function.arrow</string>
+			<string>punctuation.accessor, punctuation.section.embedded, punctuation.separator, storage.type.function.arrow, punctuation.definition.template-expression, punctuation.template-string.element.begin, punctuation.template-string.element.end</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -377,7 +377,7 @@
 			<key>name</key>
 			<string>Normal</string>
 			<key>scope</key>
-			<string>keyword.operator.dereference.java, meta.preprocessor.haskell, punctuation.separator.java, variable.parameter.java, variable.parameter.js, meta.group.js, meta.group.go, punctuation.section.class.begin.python, support.variable.dom.js, constant.character.brace, constant.character.end, constant.character.paren, constant.character.quote</string>
+			<string>keyword.operator.dereference.java, meta.preprocessor.haskell, punctuation.separator.java, variable.parameter.java, variable.parameter.js, meta.group.js, meta.group.go, punctuation.section.class.begin.python, support.variable.dom.js, constant.character.brace, constant.character.end, constant.character.paren, constant.character.quote, support.class.js, punctuation.section.group.begin.js, punctuation.section.group.end.js, meta.template.expression, meta.group.braces</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -425,7 +425,7 @@
 			<key>name</key>
 			<string>Member variables</string>
 			<key>scope</key>
-			<string>meta.function-call.object.php, meta.function-call.static.php, variable.other.makefile, variable.other.prolog, variable.other.property.js, support.variable.property.dom.js</string>
+			<string>meta.function-call.object.php, meta.function-call.static.php, variable.other.makefile, variable.other.prolog, variable.other.property.js, support.variable.property.dom.js, meta.property.object.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

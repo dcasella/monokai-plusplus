@@ -377,7 +377,7 @@
 			<key>name</key>
 			<string>Normal</string>
 			<key>scope</key>
-			<string>keyword.operator.dereference.java, meta.preprocessor.haskell, punctuation.separator.java, variable.parameter.java, variable.parameter.js, meta.group.js, meta.group.go, punctuation.section.class.begin.python, support.variable.dom.js, constant.character.brace, constant.character.end, constant.character.paren, constant.character.quote, support.class.js, punctuation.section.group.begin.js, punctuation.section.group.end.js, meta.template.expression, meta.group.braces</string>
+			<string>keyword.operator.dereference.java, meta.preprocessor.haskell, punctuation.separator.java, variable.parameter.java, variable.parameter.js, meta.group.js, meta.group.go, punctuation.section.class.begin.python, support.variable.dom.js, constant.character.brace, constant.character.end, constant.character.paren, constant.character.quote, support.class.js, punctuation.section.group.begin.js, punctuation.section.group.end.js, meta.template.expression, meta.group.braces, source.groovy.embedded.source, punctuation.section.class.end.groovy</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -437,7 +437,7 @@
 			<key>name</key>
 			<string>Functions</string>
 			<key>scope</key>
-			<string>meta.function-call.php, support.function.builtin.rust, support.function.C99, support.function.core.ruby, support.function.go, support.function.js, support.function.log.rust, support.function.magic.php, support.function.std.rust, support.function.builtin.python, support.function.builtin.go, support.function.builtin.shell, meta.function-call.js</string>
+			<string>meta.function-call.php, support.function.builtin.rust, support.function.C99, support.function.core.ruby, support.function.go, support.function.js, support.function.log.rust, support.function.magic.php, support.function.std.rust, support.function.builtin.python, support.function.builtin.go, support.function.builtin.shell, meta.function-call.js, meta.method.groovy</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

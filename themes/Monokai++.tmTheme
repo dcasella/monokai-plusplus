@@ -437,7 +437,7 @@
 			<key>name</key>
 			<string>Functions</string>
 			<key>scope</key>
-			<string>meta.function-call.php, support.function.builtin.rust, support.function.C99, support.function.core.ruby, support.function.go, support.function.js, support.function.log.rust, support.function.magic.php, support.function.std.rust, support.function.builtin.python, support.function.builtin.go, support.function.builtin.shell, meta.function-call.js, meta.method.groovy</string>
+			<string>meta.function-call.php, support.function.builtin.rust, support.function.C99, support.function.core.ruby, support.function.go, support.function.js, support.function.log.rust, support.function.magic.php, support.function.std.rust, support.function.builtin.python, support.function.builtin.go, support.function.builtin.shell, meta.function-call.js, meta.method.groovy, support.function.console.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

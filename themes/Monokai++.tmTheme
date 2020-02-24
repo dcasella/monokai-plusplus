@@ -110,7 +110,7 @@
 			<key>name</key>
 			<string>Normal</string>
 			<key>scope</key>
-			<string>entity.name.function.preprocessor, meta.preprocessor.macro, storage.modifier.import, storage.type.generic, variable.other</string>
+			<string>entity.name.function.preprocessor, meta.preprocessor.macro, storage.modifier.import, storage.type.generic</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -290,7 +290,7 @@
 			<key>name</key>
 			<string>Functions</string>
 			<key>scope</key>
-			<string>entity.name.function, meta.function-call.generic, meta.function-call.method, support.function.any-method, support.function.misc, variable.function</string>
+			<string>entity.name.function, support.function, variable.function</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -425,7 +425,7 @@
 			<key>name</key>
 			<string>Member variables</string>
 			<key>scope</key>
-			<string>meta.function-call.object.php, meta.function-call.static.php, variable.other.makefile, variable.other.prolog, variable.other.property.js, support.variable.property.dom.js, meta.property.object.js, support.variable.property.js</string>
+			<string>meta.function-call.object.php, meta.function-call.static.php, variable.other.makefile, variable.other.prolog, variable.other.property.js, support.variable.property.dom.js, meta.property.object.js, support.variable.property.js, variable.other.object.property.js, variable.other.property.cpp</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -437,7 +437,7 @@
 			<key>name</key>
 			<string>Functions</string>
 			<key>scope</key>
-			<string>meta.function-call.php, support.function.builtin.rust, support.function.C99, support.function.core.ruby, support.function.go, support.function.js, support.function.log.rust, support.function.magic.php, support.function.std.rust, support.function.builtin.python, support.function.builtin.go, support.function.builtin.shell, meta.function-call.js, meta.method.groovy, support.function.console.js</string>
+			<string>meta.method.groovy</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

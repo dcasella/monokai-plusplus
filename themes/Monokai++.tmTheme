@@ -389,7 +389,7 @@
 			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
-			<string>constant.other.symbol.prolog, support.function.be.latex, support.function.general.tex, support.function.section.latex, punctuation.dollar.js, punctuation.separator.parameters.python, support.function.definition.latex, constant.language.module.events, constant.language.module.http, constant.language.directive.module.main, constant.language.directive.module.events, constant.language.directive.module.http</string>
+			<string>constant.other.symbol.prolog, support.function.be.latex, support.function.general.tex, support.function.section.latex, punctuation.dollar.js, punctuation.separator.parameters.python, support.function.definition.latex, constant.language.module.events, constant.language.module.http, constant.language.directive.module.main, constant.language.directive.module.events, constant.language.directive.module.http, variable.language.this.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

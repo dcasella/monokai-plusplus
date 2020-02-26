@@ -254,7 +254,7 @@
 			<key>name</key>
 			<string>Punctuation</string>
 			<key>scope</key>
-			<string>punctuation.accessor, punctuation.section.embedded, punctuation.separator, storage.type.function.arrow, punctuation.definition.template-expression, punctuation.template-string.element.begin, punctuation.template-string.element.end</string>
+			<string>punctuation.accessor, punctuation.section.embedded, punctuation.separator, storage.type.function.arrow, punctuation.definition.template-expression, punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end,  punctuation.template-string.element.begin, punctuation.template-string.element.end</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

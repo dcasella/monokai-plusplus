@@ -146,7 +146,7 @@
 			<key>name</key>
 			<string>String</string>
 			<key>scope</key>
-			<string>string, string.quoted</string>
+			<string>string, string.quoted, punctuation.definition.string.begin, punctuation.definition.string.end</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

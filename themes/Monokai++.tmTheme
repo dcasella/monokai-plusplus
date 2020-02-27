@@ -242,7 +242,7 @@
 			<key>name</key>
 			<string>Member variables</string>
 			<key>scope</key>
-			<string>variable.language, variable.other.member, variable.parameter, variable.other.readwrite.member</string>
+			<string>variable.language, variable.other.member, variable.parameter, variable.other.readwrite.member, entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -278,7 +278,7 @@
 			<key>name</key>
 			<string>Tags</string>
 			<key>scope</key>
-			<string>entity.name.tag, entity.other.attribute-name</string>
+			<string>entity.name.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

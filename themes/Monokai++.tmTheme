@@ -170,7 +170,7 @@
 			<key>name</key>
 			<string>Language constant</string>
 			<key>scope</key>
-			<string>constant.language, constant.numeric</string>
+			<string>constant.language, constant.numeric, support.variable.magic</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -437,7 +437,7 @@
 			<key>name</key>
 			<string>Functions</string>
 			<key>scope</key>
-			<string>meta.method.groovy, punctuation.definition.logical-expression.shell</string>
+			<string>meta.method.groovy, punctuation.definition.logical-expression.shell, meta.function-call.generic.python</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

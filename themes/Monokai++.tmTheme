@@ -338,6 +338,18 @@
 
 		<dict>
 			<key>name</key>
+			<string>Markup strikethrough</string>
+			<key>scope</key>
+			<string>markup.strikethrough</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>strikethrough</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
 			<string>Markup underline</string>
 			<key>scope</key>
 			<string>markup.underline</string>

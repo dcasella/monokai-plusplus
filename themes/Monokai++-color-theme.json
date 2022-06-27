@@ -1,0 +1,7 @@
+{
+    "name": "Monokai++",
+    "tokenColors": "./Monokai++.tmTheme",
+    "semanticHighlighting": true,
+    "semanticTokenColors": {},
+    "colors": {}
+}

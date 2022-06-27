@@ -23,7 +23,7 @@
 			{
 				"label": "Monokai++",
 				"uiTheme": "vs-dark",
-				"path": "./themes/Monokai++.tmTheme"
+				"path": "./themes/Monokai++-color-theme.json"
 			}
 		]
 	},

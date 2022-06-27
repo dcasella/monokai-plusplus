@@ -2,7 +2,7 @@
 	"name": "monokai-plusplus",
 	"displayName": "Monokai++",
 	"description": "A modern Monokai theme for Sublime Text 3 and Visual Studio Code",
-	"version": "1.10.0",
+	"version": "1.11.0",
 	"publisher": "dcasella",
 	"icon": "images/logo.png",
 	"galleryBanner": {

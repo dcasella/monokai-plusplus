@@ -110,7 +110,7 @@
 			<key>name</key>
 			<string>Normal</string>
 			<key>scope</key>
-			<string>entity.name.function.preprocessor, meta.preprocessor.macro, storage.modifier.import, storage.type.generic</string>
+			<string>entity.name.function.preprocessor, meta.preprocessor.macro, storage.modifier.import, storage.type.generic, variable.parameter, punctuation.section.class.begin, punctuation.section.class.end</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -230,7 +230,7 @@
 			<key>name</key>
 			<string>Data type</string>
 			<key>scope</key>
-			<string>keyword.type, storage.type, support.class, support.type</string>
+			<string>keyword.type, storage.type, support.class, support.type, entity.name.type</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -242,7 +242,7 @@
 			<key>name</key>
 			<string>Member variables</string>
 			<key>scope</key>
-			<string>variable.language, variable.other.member, variable.parameter, variable.other.readwrite.member, entity.other.attribute-name</string>
+			<string>variable.language, variable.parameter.function.language.special, variable.other.member, variable.other.readwrite.member, entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -413,7 +413,7 @@
 			<key>name</key>
 			<string>Data modifier</string>
 			<key>scope</key>
-			<string>entity.name.type.go, entity.name.type.namespace.php, meta.import.scala, punctuation.separator.inheritance.php, storage.type.js, support.other.module.haskell, support.other.namespace.use.php, variable.other.constant.ruby, entity.name.section.puppet, entity.name.function.decorator.python</string>
+			<string>entity.name.type.go, entity.name.type.namespace.php, meta.import.scala, punctuation.separator.inheritance.php, storage.type.js, support.other.module.haskell, support.other.namespace.use.php, variable.other.constant.ruby, entity.name.section.puppet, entity.name.function.decorator.python, keyword.other.rust</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -425,7 +425,7 @@
 			<key>name</key>
 			<string>Data type</string>
 			<key>scope</key>
-			<string>keyword.control.def.ruby, keyword.declaration.scala, keyword.declaration.stable.scala, keyword.declaration.volatile.scala, keyword.other.fn.rust, keyword.other.rust, meta.structure.dictionary.key.json, storage.class.std.rust</string>
+			<string>keyword.control.def.ruby, keyword.declaration.scala, keyword.declaration.stable.scala, keyword.declaration.volatile.scala, keyword.other.fn.rust, meta.structure.dictionary.key.json, storage.class.std.rust</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

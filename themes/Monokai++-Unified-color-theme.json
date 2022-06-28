@@ -2,7 +2,9 @@
     "name": "Monokai++ Unified",
     "tokenColors": "./Monokai++.tmTheme",
     "semanticHighlighting": true,
-    "semanticTokenColors": {},
+    "semanticTokenColors": {
+        "property": "#fd971f"
+    },
     "colors": {
         "activityBar.background": "#1c1c1c",
         "badge.background": "#328eff",

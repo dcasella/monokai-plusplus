@@ -240,9 +240,9 @@
 
 		<dict>
 			<key>name</key>
-			<string>Member variables</string>
+			<string>Member variables, function parameters</string>
 			<key>scope</key>
-			<string>variable.language, variable.parameter.function.language.special, variable.other.member, variable.other.readwrite.member, entity.other.attribute-name</string>
+			<string>variable.language, variable.parameter.function.language.special, variable.other.member, variable.other.readwrite.member, entity.other.attribute-name, variable.parameter.function-call</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -389,7 +389,7 @@
 			<key>name</key>
 			<string>Normal</string>
 			<key>scope</key>
-			<string>keyword.operator.dereference.java, meta.preprocessor.haskell, punctuation.separator.java, variable.parameter.java, variable.parameter.js, meta.group.js, meta.group.go, punctuation.section.class.begin.python, support.variable.dom.js, constant.character.brace, constant.character.end, constant.character.paren, constant.character.quote, support.class.js, punctuation.section.group.begin.js, punctuation.section.group.end.js, meta.template.expression, meta.group.braces, source.groovy.embedded.source, punctuation.section.class.end.groovy, variable.other.bracket.shell, variable.other.readwrite.shell, meta.group.expansion.command.parens.shell, variable.other.normal.shell, string.interpolated.dollar.shell, meta.function.shell punctuation.section.parens.begin.shell, meta.function.shell punctuation.section.parens.end.shell, string.other.math.shell</string>
+			<string>keyword.operator.dereference.java, meta.preprocessor.haskell, punctuation.separator.java, meta.group.js, meta.group.go, punctuation.section.class.begin.python, support.variable.dom.js, constant.character.brace, constant.character.end, constant.character.paren, constant.character.quote, support.class.js, punctuation.section.group.begin.js, punctuation.section.group.end.js, meta.template.expression, meta.group.braces, source.groovy.embedded.source, punctuation.section.class.end.groovy, variable.other.bracket.shell, variable.other.readwrite.shell, meta.group.expansion.command.parens.shell, variable.other.normal.shell, string.interpolated.dollar.shell, meta.function.shell punctuation.section.parens.begin.shell, meta.function.shell punctuation.section.parens.end.shell, string.other.math.shell</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -437,7 +437,7 @@
 			<key>name</key>
 			<string>Member variables</string>
 			<key>scope</key>
-			<string>meta.function-call.object.php, meta.function-call.static.php, variable.other.makefile, variable.other.prolog, variable.other.property.js, support.variable.property.dom.js, meta.property.object.js, support.variable.property.js, variable.other.object.property.js, variable.other.property.cpp</string>
+			<string>meta.function-call.object.php, meta.function-call.static.php, variable.other.makefile, variable.other.prolog, variable.other.property.js, support.variable.property.dom.js, meta.property.object.js, support.variable.property.js, variable.other.object.property.js, variable.other.property.cpp, meta.attribute.python</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

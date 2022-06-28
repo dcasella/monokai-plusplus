@@ -32,8 +32,14 @@ Click Install
 
 **Option 2:**
 
-`Ctrl/Command + P` to launch the command palette  
+`Ctrl/Command + P` to launch the "Go to file" palette  
 Write `ext install dcasella.monokai-plusplus`
+
+#### Theme Selection
+
+`Ctrl/Command + Shift + P` to launch the command palette  
+Select `Preferences: Color Theme`  
+Select `Monokai++` for the standard color scheme or `Monokai++ Unified` for a full workbench color theme.
 
 ## Screenshots
 

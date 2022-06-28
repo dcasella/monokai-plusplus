@@ -28,7 +28,7 @@
 			{
 				"label": "Monokai++ Unified",
 				"uiTheme": "vs-dark",
-				"path": "./themes/Monokai++-color-theme-unified.json"
+				"path": "./themes/Monokai++-Unified-color-theme.json"
 			}
 		]
 	},

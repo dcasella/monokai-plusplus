@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+
+set -o errexit  # exit script when a command fails
+set -o pipefail # non-zero exit codes propagate to the end of a pipeline
+
+GITHUB_URL='https://github.com/dcasella/monokai-plusplus/releases/new'
+
+verlte() {
+	printf '%s\n%s' "${1:?}" "${2:?}" \
+		| sort --check=quiet --version-sort
+}
+
+current_version="$(jq -r '.version' package.json)"
+
+echo "Current version: ${current_version}"
+read -rp 'New version: ' new_version
+
+if ! verlte "${current_version}" "${new_version}"; then
+	echo "Version ${new_version} is older than ${current_version}" >&2
+fi
+
+if [ -n "$(git status --porcelain)" ]; then
+	echo 'Git working directory not clean' >&2
+fi
+
+# bump version in README for Sublime Text Package Control
+sed -i "s/v${current_version}/v${new_version}/g" README.md
+git add README.md
+git commit -m "Bump README to ${new_version}"
+# publish to the Visual Studio Code Marketplace
+vsce publish "${new_version}"
+git push
+# manually publish to Sublime Text Package Control
+git push --tags
+echo "Go to ${GITHUB_URL}?tag=v${new_version}&title=${new_version}"
